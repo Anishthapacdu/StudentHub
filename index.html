@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>City Weather Cards</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+  <header>
+    City Weather Insights
+  </header>
+
+<div id="cards-container">
+  <!-- Card for Darwin -->
+  <div class="card" onclick="showDetails('Darwin')">
+    <img src="darwin.jpg" alt="Darwin" class="card-image">
+    <h2>Darwin</h2>
+    <p class="learn-more">Click to learn more</p>
+  </div>
+
+  <!-- Card for Sydney -->
+  <div class="card" onclick="showDetails('Sydney')">
+    <img src="sydney.jpg" alt="Sydney" class="card-image">
+    <h2>Sydney</h2>
+    <p class="learn-more">Click to learn more</p>
+  </div>
+
+  <!-- Card for Brisbane -->
+  <div class="card" onclick="showDetails('Brisbane')">
+    <img src="brisbane.jpg" alt="Brisbane" class="card-image">
+    <h2>Brisbane</h2>
+    <p class="learn-more">Click to learn more</p>
+  </div>
+
+  <!-- Card for Hobart -->
+  <div class="card" onclick="showDetails('Hobart')">
+    <img src="hobart.jpg" alt="Hobart" class="card-image">
+    <h2>Hobart</h2>
+    <p class="learn-more">Click to learn more</p>
+  </div>
+
+  <!-- Card for Perth -->
+  <div class="card" onclick="showDetails('Perth')">
+    <img src="perth.jpg" alt="Perth" class="card-image">
+    <h2>Perth</h2>
+    <p class="learn-more">Click to learn more</p>
+  </div>
+
+  <!-- Card for Queensland -->
+  <div class="card" onclick="showDetails('Queensland')">
+    <img src="queensland.jpg" alt="Queensland" class="card-image">
+    <h2>Queensland</h2>
+    <p class="learn-more">Click to learn more</p>
+  </div>
+
+  <!-- Card for Adelaide -->
+  <div class="card" onclick="showDetails('Adelaide')">
+    <img src="adelaide.jpg" alt="Adelaide" class="card-image">
+    <h2>Adelaide</h2>
+    <p class="learn-more">Click to learn more</p>
+  </div>
+
+  <!-- Card for Canberra -->
+  <div class="card" onclick="showDetails('Canberra')">
+    <img src="canberra.jpg" alt="Canberra" class="card-image">
+    <h2>Canberra</h2>
+    <p class="learn-more">Click to learn more</p>
+  </div>
+
+  <!-- Card for Newcastle -->
+  <div class="card" onclick="showDetails('Newcastle')">
+    <img src="newcastle.jpg" alt="Newcastle" class="card-image">
+    <h2>Newcastle</h2>
+    <p class="learn-more">Click to learn more</p>
+  </div>
+
+
+  <div class="card" onclick="showDetails('Melbourne')">
+    <img src="Melbourne.jpg" alt="Darwin" class="card-image">
+    <h2>Melbourne</h2>
+    <p class="learn-more">Click to learn more</p>
+  </div>
+</div>
+
+<!-- Details Popup (Hidden Initially) -->
+<div id="details-popup" class="popup-hidden">
+  <div class="popup-content">
+    <span class="close" onclick="hideDetails()">&times;</span>
+    <h2 id="city-name">City Name</h2>
+    <p id="weather-info">Weather information...</p>
+  </div>
+</div>
+
+
+<footer>
+  © 2024 Anish Thapa. ALL RIGHTS RESERVED
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
