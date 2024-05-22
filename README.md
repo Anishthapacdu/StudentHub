@@ -21,4 +21,4 @@ Future Enhancements:
 Implementing API calls to a weather service for real-time weather updates.
 Adding more cities and possibly allowing user-selected locations.
 Introducing user preferences, such as temperature units (Celsius or Fahrenheit).
-Portfolio Link: https://beyond07.github.io/StudentHub/
+Portfolio Link: https://anishthapacdu.github.io/StudentHub/
